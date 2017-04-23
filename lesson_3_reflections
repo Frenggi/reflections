@@ -1,0 +1,7 @@
+git push <remote-repo-name> <branch-name>:
+								Einen Branch auf das Remote Repo pushen
+git pull <branch-name>:			Branch von remote holen
+
+git remote:						Übersicht über die Remote Verzeichnisse
+git remote add origin (Name des Remote Repos) https://github.com/Frenggi/reflections.git (URLdes remote Repos):
+								Verbinden des remote Repos
