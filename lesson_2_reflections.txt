@@ -1,17 +1,7 @@
-GIT
-
-
-
-git clone ...:					Repository auschecken
-git log: 						Anzeige der Versionen eines Repos
-git checkout <version-number>:	Version auschecken
-git diff ... ...:				Vegleich zweier Versionen
-git init:						Verzeichnis in Git Repo initialisieren
-git status:						Status eines Repos (der geänderten Files)
-
 Staging Area:					Bereich zwischen 'Working Dir' und 'Git Repo' um Änderungen zwischenzuspeichern
 
-git add ...:					Files zur Staging Area 
+git add ...:					Files zur Staging Area hinzufügen
+git rm ...:						Files auf Staging Area löschen
 git diff:						Vergleich von 'Working Dir' und 'Staging Area'
 git diff --staged:				Vergleich von 'Staging Area' und 'Repo'
 git reset --hard:				(Lokale) Änderungen (im Working Dir) zurücksetzen
