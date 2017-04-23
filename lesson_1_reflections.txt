@@ -7,4 +7,4 @@ git log: 						Anzeige der Versionen eines Repos
 git checkout <version-number>:	Version auschecken
 git diff ... ...:				Vegleich zweier Versionen
 git init:						Verzeichnis in Git Repo initialisieren
-git status:						Status eines Repos (der geänderten Files)
+git status:						Status eines Repos (der geänderten Files), zeigt auch Unterschiede zwischen lokalen und dem Remote Repository

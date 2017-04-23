@@ -1,7 +1,20 @@
 git push <remote-repo-name> <branch-name>:
 								Einen Branch auf das Remote Repo pushen
-git pull <branch-name>:			Branch von remote holen
+git pull <remote-repo-name> <branch-name>:
+								Branch von remote holen
 
 git remote:						Übersicht über die Remote Verzeichnisse
 git remote add origin (Name des Remote Repos) https://github.com/Frenggi/reflections.git (URLdes remote Repos):
 								Verbinden des remote Repos
+
+Fork:							Kopie eines Repos auf GitHub mit Verlinkung auf das originale Repo
+
+origin/master:					Lokaler Branch mit dem Stand auf dem Repository
+Fetch:							Update des lokalen 'origin/master' mit dem Stand des remote 'master'
+git pull:						git fetch origin --> git merge master origin/master
+
+Fast-Forward-Merge:				Vorgänger-Commit in den aktuellsten Commit mergen
+
+Pull-Request:					In neuem Branch eine Änderung machen und Review anfragen --> danach wird in den Masterbranch gemerged
+
+git remote add upstream <url>:	Branch erzeugen, der auf den Master-Branch des originalen Remotes-Repos (eines Forks) zeigt 

@@ -16,6 +16,6 @@ git checkout <branch-name>:		Auschecken des Branches (letzter Commit) --> Erzeug
 git log --graph --oneline master <branch-name>:
 								Grafische Darstellung der Branch-Pfade
 
-git merge master <branch-name>:	Mergen der beiden Branches
+git merge master <branch-name>:	Mergen des master-Branches in den anderen Branch
 
 git show <version-number>:		Vergleichen einer Version mit dem Parent (Vorgängerversion)
